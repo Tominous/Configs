@@ -1,7 +1,7 @@
 # ChatReaction version 1.8.0 configuration file
 # Via config.helpch.at
 
-debug: false
+debug: true
 check_updates: true
 reaction_stats:
   track_stats: false
@@ -23,7 +23,7 @@ reaction:
   split_words_by_line: true
   scramble_custom_words: true
   scramble_at_random: true
-  scramble_spaces: false
+  scramble_spaces: true
   disabled_worlds:
   - world_nether
   - world_the_end
