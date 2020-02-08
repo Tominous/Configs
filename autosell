@@ -7,13 +7,13 @@ hooks:
   mine_reset_lite:
     enabled: true
   worldguard:
-    enabled: false
+    enabled: true
   prisonmines:
-    enabled: false
+    enabled: true
   asylum_mines:
-    enabled: false
+    enabled: true
   jets_prison_mines:
-    enabled: false
+    enabled: true
 tools_never_break: true
 ignore_custom_items: true
 multiplier_save_on_interval: true
@@ -86,14 +86,14 @@ autosell:
     interval: 60
     has_multiplier_message:
     - '&8&m-----------------------------------------------------'
-    - '&eYour AutoSell stats...'
+    - '&eYour AutoSell statistics...'
     - '&bItems Sold&7: &f%items%'
     - '&bAmount&7: &a$&f%amount%'
     - '&bMultiplier: &f%multiplier%'
     - '&8&m-----------------------------------------------------'
     no_multiplier_message:
     - '&8&m-----------------------------------------------------'
-    - '&eYour AutoSell stats...'
+    - '&eYour AutoSell statistics...'
     - '&bItems Sold&7: &f%items%'
     - '&bAmount&7: &a$&f%amount%'
     - '&8&m-----------------------------------------------------'
