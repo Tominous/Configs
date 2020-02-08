@@ -9,7 +9,7 @@
 #   50:
 #   - [message] You get an extra reward for having over 50 wins!
 #   - [console] eco give %player_name% 500
-rewards_based_on_wins: false
+rewards_based_on_wins: true
 win_rewards:
   '20':
   - '[message] you get an extra reward for having over 20 wins!'
